@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-sans leading-normal tracking-normal">
+    <header id="header" class="bg-white">
+      <nav class="grid grid-cols-1 md:grid-cols-3">
+      <nav class="grid grid-cols-1 md:grid-cols-3">
+        <div id="mylogo" class="md:col-span-1">
+          <img src="Images\logo\mylogo.png" alt="" width="50" height="30" />
+        </div>
+
+        <div class="md:col-span-2">
+          <div class="md:hidden">
+            <button id="menuBtn" class="text-gray-800 focus:outline-none">
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                ></path>
+              </svg>
+            </button>
+          </div>
+
+          <div class="hidden md:flex space-x-4" id="navLinks">
+            <ul class="flex space-x-4">
+              <li>
+                <a href="#Home" class="text-blue-500 hover:text-blue-700"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#About" class="text-blue-500 hover:text-blue-700"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#Achievements"
+                  class="text-blue-500 hover:text-blue-700"
+                  >Achievement</a
+                >
+              </li>
+              <li>
+                <a href="#Hobbies" class="text-blue-500 hover:text-blue-700"
+                  >Hobbies</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="text-blue-500 hover:text-blue-700"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section
+      class="Home bg-gray-900 text-white py-10 md:py-20 xl:py-32"
+      id="Home"
+    >
+      <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <div class="intr">
+          <h5 class="text-2xl font-bold mb-4">
+            Hi, I am <span class="text-blue-500">Meti Lamessa</span>
+          </h5>
+          <p class="text-lg">
+            Welcome to my personal portfolio website! Here, you will find pages
+            dedicated to providing information about me, my achievements,
+            hobbies, and contact details. Feel free to explore and get to know
+            me better.
+          </p>
+        </div>
+        <div class="himage">
+          <img
+            src="Images/photo_2023-01-23_09-26-29.jpg"
+            alt=""
+            class="w-full h-auto"
+            style="max-width: 400px; height: auto"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="About bg-gray-800 text-white py-20 md:py-32 flex items-center justify-center h-screen"
+      id="About"
+    >
+      <div class="Acontainer px-8">
+        
+        <div class="Acontainer px-8">
+          <div class="circle-image flex items-center justify-center mb-8">
+            <img
+              src="Images/photo_2022-11-06_14-33-04.jpg"
+              alt=""
+              class="rounded-full w-48 h-48"
+            />
+          </div>
+          <div class="Aparagraph text-center">
+            <h2 class="text-4xl font-bold mb-4">About Me</h2>
+            <p class="text-lg">
+              My name is Meti Lamessa, and I am an ambitious young woman from
+              Ethiopia. I am incredibly passionate about technology, particularly
+              in the field of Software Engineering. Currently, I am a third-year
+              student studying software engineering at Addis Ababa University. My
+              journey in this field has been marked by dedication, continuous
+              learning, and a drive to make a meaningful impact in the technology
+              industry.
+              <q
+                >Through my studies, I have been acquiring the necessary skills
+                and knowledge to excel in software engineering.</q
+              >
+            </p>
+          </div>
+      </div>
+    </section>
+
+    <section
+      class="Achievements bg-gray-900 text-white py-20 md:py-32 flex items-center justify-center"
+      id="Achievements">
+      <div class="Ac-container mx-auto max-w-4xl">
+        
+        <div class="topic mb-8">
+          <h3 class="text-3xl font-bold">My Achievements</h3>
+        </div>
+        <div class="docs grid grid-cols-1 md:grid-cols-3 gap-x-5 gap-y-8">
+          <div class="doc-item">
+            <img src="Images/cscpt.PNG" alt="" class="w-full h-auto" />
+            <p class="mt-4">
+              This is my certificate for <strong>completing</strong> the Cisco
+              Networking Academy® Introduction to Packet Tracer course.
+            </p>
+          </div>
+          <div class="doc-item">
+            <img src="Images/cscfn.PNG" alt="" class="w-full h-auto" />
+            <p class="mt-4">
+              This is my certificate for <strong>completing</strong> Networking
+              Essentials course.
+            </p>
+          </div>
+          <div class="doc-item">
+            <img
+              src="Images/photo_2022-03-20_18-23-03.jpg"
+              alt=""
+              class="w-full h-auto"
+              width="150"
+              height="180"
+            />
+            <p class="mt-4">
+              This is my certificate for <strong>volunteering</strong> by
+              teaching high school students.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Hobbies bg-gray-800 text-white py-16 md:py-32" id="Hobbies">
+      <div class="max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <div class="det">
+          <div>
+            <h3 class="text-3xl font-bold mb-4">My Hobbies</h3>
+            <p>
+              Most of the time, I find great joy in immersing myself in books
+              and movies. Additionally, I have a strong passion for sports.
+              Playing football and basketball brings me immense pleasure and
+              allows me to stay active and engaged. And I tried to put my
+              hobbies in the following table.
+            </p>
+          </div>
+          <div>
+            <table class="mt-6 w-full border-collapse">
+              <tbody>
+                <tr>
+                  <th class="py-2 border-b border-black">Books</th>
+                  <th class="py-2 border-b border-black">Movies</th>
+                  <th class="py-2 border-b border-black">Sports</th>
+                </tr>
+                <tr>
+                  <td class="py-2 border-b border-black">Spiritual</td>
+                  <td class="py-2 border-b border-black">Comedy</td>
+                  <td class="py-2 border-b border-black">Football</td>
+                </tr>
+                <tr>
+                  <td class="py-2 border-b border-black">Fictions</td>
+                  <td class="py-2 border-b border-black">Animation</td>
+                  <td class="py-2 border-b border-black">Basketball</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="sh">
+          <h4 class="text-xl font-bold mb-4">
+            Here is my favorite movie and my favorite book
+          </h4>
+          <div class="flex justify-center items-center">
+            <iframe
+              width="250"
+              height="230"
+              src="https://www.youtube.com/embed/0IdYJGBmguM?si=jmiZ_DsUb7zOidn0"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="flex justify-center items-center mt-6">
+            <img src="Images/tpdl.PNG" alt="" class="h-56" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+      <section class="contact" id="contact">
+        <div class="max-w-4xl mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="cto md:col-span-1">
+             
+              <h3 class="text-2xl font-bold mb-4">Contact</h3>
+              <ul id="list">
+                <li>
+                  <a href="mailto:metalamessa02@gmail.com"
+                    >metalamessa02@gmail.com</a
+                  >
+                </li>
+                <li>Tel: +251906125228</li>
+                <li>Instagram: meta_hawa</li>
+              </ul>
+            </div>
+
+            <div class="p2 md:col-span-1">
+              
+              <form>
+                <p>
+                  <label for="name" class="block">Name:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="fname"
+                    placeholder="Your name..."
+                    class="input"
+                  />
+                </p>
+                <br />
+                <p>
+                  <label for="email" class="block">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your email..."
+                    class="input"
+                  />
+                </p>
+                <br />
+                <p>
+                  <label for="comment" class="block">Comment:</label>
+                  <textarea
+                    class="area"
+                    id="comment"
+                    name="comment"
+                    placeholder="Your comment..."
+                  ></textarea>
+                </p>
+                <br />
+                <input
+                  type="submit"
+                  value="Submit"
+                  class="bg-gray-700 px-4 py-2 rounded text-white hover:bg-gray-600"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script>
+      
+      document.getElementById("menuBtn").addEventListener("click", function () {
+        var navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
